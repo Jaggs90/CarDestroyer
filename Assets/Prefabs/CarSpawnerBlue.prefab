@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1830705028795188}
+  m_IsPrefabParent: 1
+--- !u!1 &1830705028795188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4659522153182566}
+  - component: {fileID: 114983296770073200}
+  - component: {fileID: 114548777418668196}
+  m_Layer: 0
+  m_Name: CarSpawnerBlue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4659522153182566
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1830705028795188}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -32.98394, y: -0.02, z: 3.8473568}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &114548777418668196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1830705028795188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"embed":{"pan":{"x":-14.0,"y":24.125},"zoom":1.0,"elements":[{"nest":{"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"isListening":false,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-405.0,"y":-108.0},"guid":"f43af918-c07d-4762-a6c4-d4748d85e03d","$version":"A","$type":"Bolt.OnEnterState","$id":"14"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","lastValidTargetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-283.0,"y":-17.0},"guid":"44583757-4913-48bb-b70d-b9c1d17c0ebd","$version":"A","$type":"Bolt.GetMember","$id":"16"},{"member":{"name":"Instantiate","parameterTypes":["UnityEngine.Object","UnityEngine.Vector3","UnityEngine.Quaternion"],"targetType":"UnityEngine.GameObject","lastValidTargetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%original":null,"%position":{"x":-25.0,"y":2.5,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":122.0,"y":-182.0},"guid":"d982b352-92e8-47ae-a057-701112bd162d","$version":"A","$type":"Bolt.InvokeMember","$id":"19"},{"type":"UnityEngine.Quaternion","value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0,"$type":"UnityEngine.Quaternion"},"defaultValues":{},"position":{"x":-272.0,"y":103.0},"guid":"19e2ea03-da13-4b5f-9b20-8b9da1ff33a3","$version":"A","$type":"Bolt.Literal","$id":"22"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"a4941b14-8b45-4f71-8d85-430c0bbda8b1","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"%position","guid":"f3143b82-22ee-439b-a4da-214bcd90d28d","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"%rotation","guid":"8d8432f1-86ce-4ce4-8630-c1a8c6ae9837","$type":"Bolt.ValueConnection"}],"title":"Start","summary":null,"$version":"A"},"source":"Embed","macro":null},"position":{"x":-138.0,"y":-52.0},"width":170.0,"isStart":true,"guid":"f969c54e-7470-46b7-be47-993f71ce239c","$version":"A","$type":"Bolt.FlowState","$id":"4"},{"nest":{"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"isListening":false,"pan":{"x":-95.0,"y":13.0},"zoom":1.0,"elements":[{"defaultValues":{"seconds":{"$content":0.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-196.0,"y":-145.0},"guid":"b475299a-9b85-4d59-8b58-23d81c4a8318","$version":"A","$type":"Bolt.OnTimerElapsed","$id":"37"},{"defaultValues":{},"position":{"x":100.0,"y":-50.0},"guid":"36b0dcd1-6bbc-49b6-bc73-7aeeda80d621","$version":"A","$type":"Bolt.TriggerStateTransition","$id":"39"},{"member":{"name":"Range","parameterTypes":["System.Single","System.Single"],"targetType":"UnityEngine.Random","lastValidTargetTypeName":"UnityEngine.Random","$version":"A"},"defaultValues":{"%min":{"$content":1.0,"$type":"System.Single"},"%max":{"$content":5.0,"$type":"System.Single"}},"position":{"x":-481.0,"y":-120.0},"guid":"e56561cc-d3b0-4c9a-854d-420fbfee6488","$version":"A","$type":"Bolt.InvokeMember","$id":"41"},{"sourceUnit":{"$ref":"37"},"sourceKey":"trigger","destinationUnit":{"$ref":"39"},"destinationKey":"trigger","guid":"5216e43d-b0d4-4672-81c4-996446e5c468","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"41"},"sourceKey":"result","destinationUnit":{"$ref":"37"},"destinationKey":"seconds","guid":"99089a72-d946-486f-a074-f5b101019fcc","$type":"Bolt.ValueConnection"}],"title":null,"summary":null,"$version":"A"},"source":"Embed","macro":null},"source":{"$ref":"4"},"destination":{"$ref":"4"},"guid":"41c537e4-6416-4974-99c4-6e804b67d69b","$version":"A","$type":"Bolt.FlowStateTransition"}],"title":null,"summary":null,"$version":"A"},"source":"Macro","macro":0}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 749784c8bd5ff654db86c347e05803d9, type: 2}
+--- !u!114 &114983296770073200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1830705028795188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"spawnTime","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
