@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shredder.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Euro Truck Simulator 2\profiles\4A61676773\save\1\game.sii">
     <Files>
-      <File FileName="Assets\Shredder.cs" Line="11" Column="1" />
+      <File FileName="Assets\Shredder.cs" Line="1" Column="1" />
       <File FileName="..\..\Unity\Laser Defender\Assets\Scripts\ScoreKeeper.cs" Line="1" Column="1" />
       <File FileName="..\..\Unity\Laser Defender\Assets\Scripts\ScoreDisplay.cs" Line="1" Column="1" />
       <File FileName="..\..\Unity\Laser Defender\Assets\Entities\Player\PlayerController.cs" Line="1" Column="1" />
       <File FileName="..\..\Unity\Laser Defender\Assets\Entities\Enemy\EnemyFormation.cs" Line="1" Column="1" />
+      <File FileName="..\..\Unity\Glitch Garden\Assets\Scripts\GameTimer.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Euro Truck Simulator 2\profiles\4A61676773\save\1\game.sii" Line="2307" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
